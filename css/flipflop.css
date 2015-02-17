@@ -1,0 +1,40 @@
+/* CSS Document */
+
+.wrapper {
+    max-width: 60%;
+    height:70%;
+}
+
+.box {
+border-color:#FFFFFF;
+border-style:solid;
+   outline:none;
+    position: relative;
+    width: 16.66%;
+    height: 16.66%;
+	float: left;
+    background: #FCC;
+    z-index: 0;
+    margin: 2px 2px 2px -2px;
+    transition: all .15s ease-in-out;
+}
+
+.box.black {background:#000;}
+
+.six 
+{border-color:#FFFFFF;
+	border-style:solid;
+    outline:none;
+    position: relative;
+    width: 16.66%;
+    height: 16.66%;
+	float: left;
+    background-color:#000;
+    z-index: 0;
+    margin: 2px 2px 2px -2px;
+    transition: all .15s ease-in-out;
+	}
+	
+.six.black{
+	background-color:#FCC;
+}
