@@ -1,0 +1,31 @@
+<head><link href="css/flipflop.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+ <script type="text/javascript" >
+  $(document).ready(function () {
+
+if (Modernizr.localstorage) {
+ //use localStorage object to store data
+ try {
+        localStorage.setItem('1', '<div class="wrapper"><button class="box" id="1">1</button><button class="box" id="2">2</button><button class="box" id="3">3</button><button class="box" id="4">4</button><button class="box" id="5">5</button><button class="box" id="6">6</button><button class="box" id="7">7</button><button class="box" id="8">8</button><button class="box" id="9">9</button><button class="box" id="10">10</button><button class="box" id="11">11</button><button class="box" id="12">12</button><button class="box" id="13">13</button><button class="box" id="14">14</button><button class="box" id="15">15</button><button class="box" id="16">16</button><button class="box" id="17">17</button><button class="box" id="18">18</button><button class="box" id="19">19</button><button class="box" id="20">20</button><button class="box" id="21">21</button><button class="box" id="22">22</button><button class="box" id="23">23</button><button class="box" id="24">24</button><button class="box" id="25">25</button><button class="box" id="26">26</button><button class="box" id="27">27</button><button class="box" id="28">28</button><button class="box" id="29">29</button><button class="box" id="30">30</button><button class="box" id="31">31</button><button class="box" id="32">32</button><button class="box" id="33">33</button><button class="box" id="34">34</button><button class="box" id="35">35</button><button class="box" id="36">36</button></div>');
+		
+		localStorage.setItem('2', '<div class="wrapper"><button class="box" id="1">1</button><button class="six" id="2">2</button><button class="box" id="3">3</button><button class="six" id="4">4</button><button class="six" id="5">5</button><button class="box" id="6">6</button><button class="box" id="7">7</button><button class="box" id="8">8</button><button class="box" id="9">9</button><button class="six" id="10">10</button><button class="six" id="11">11</button><button class="six" id="12">12</button><button class="box" id="13">13</button><button class="six" id="14">14</button><button class="box" id="15">15</button><button class="six" id="16">16</button><button class="six" id="17">17</button><button class="six" id="18">18</button><button class="six" id="19">19</button><button class="six" id="20">20</button><button class="six" id="21">21</button><button class="six" id="22">22</button><button class="six" id="23">23</button><button class="six" id="24">24</button><button class="six" id="25">25</button><button class="box" id="26">26</button><button class="six" id="27">27</button><button class="six" id="28">28</button><button class="six" id="29">29</button><button class="six" id="30">30</button><button class="six" id="31">31</button><button class="six" id="32">32</button><button class="box" id="33">33</button><button class="six" id="34">34</button><button class="six" id="35">35</button><button class="box" id="36">36</button></div>');
+    } catch (e) {
+        if (e == QUOTA_EXCEEDED_ERR) {
+            alert('Quota exceeded!');
+        }
+	}
+} 
+else {
+ alert('Cannot store user preferences as your browser do not support local storage');
+}
+});
+
+
+</script>
+</head>
+
+<body>
+<a href="stages.html"><button id="list_item1">1</button></a>
+<a href="stages.html"><button id="list_item2">2</button></a>
+</body>
